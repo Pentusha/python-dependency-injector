@@ -36,7 +36,7 @@ if os.environ.get("DEPENDENCY_INJECTOR_DEBUG_MODE") == "1":
     defined_macros["CYTHON_CLINE_IN_TRACEBACK"] = 1
 
 
-setup(name="dependency-injector",
+setup(name="dependency-injector-fork",
       version=version,
       description="Dependency injection framework for Python",
       long_description=description,
