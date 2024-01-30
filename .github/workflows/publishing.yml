@@ -78,7 +78,7 @@ jobs:
         if: runner.os == 'Linux'
         uses: docker/setup-qemu-action@v2
       - name: Build wheels
-        uses: pypa/cibuildwheel@v2.11.3
+        uses: pypa/cibuildwheel@v2.16.4
         env:
           CIBW_ARCHS_LINUX: aarch64
       - uses: actions/upload-artifact@v3
