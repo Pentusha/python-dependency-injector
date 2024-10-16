@@ -1,10 +1,6 @@
 """Providers module."""
 
-try:
-    import asyncio
-except ImportError:
-    asyncio = None
-
+import asyncio
 import functools
 
 cimport cython
